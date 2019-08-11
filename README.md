@@ -10,3 +10,6 @@ Install youtube-dl with Python:
 Execute this command to download highest resolution in equirectangular:
 
 `youtube-dl -f bestvideo[ext=mp4] --user-agent '' URL`
+
+
+More detail [here](https://github.com/ytdl-org/youtube-dl/issues/15267)
