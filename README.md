@@ -1,5 +1,5 @@
-Currently, Youtube has their own propriety encoding scheme for 360-degree video in 2K and 4K resolution. 
-If you download these videos, you will see the frame is cut and arranged into two rows
+Recently, Youtube has developed their own [propriety encoding scheme](https://youtube-eng.googleblog.com/2017/03/improving-vr-videos.html) for 360-degree videos. Most videos from Youtube which have 2K and 4K resolution have already been converted into this format. 
+As a result, if you download these videos, you will see the frame is cut and arranged into two rows
 ![Youtube propriety format](https://github.com/phananh1010/download-highres-youtubevid/blob/master/deerbox_0_01.png?raw=true)
 
 In oder to download the equirectangular format, youtube-dl is the best solution
