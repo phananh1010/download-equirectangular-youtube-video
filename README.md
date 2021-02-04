@@ -13,7 +13,7 @@ Install youtube-dl with Python:
 
 Execute this command to download highest resolution in equirectangular:
 
-`youtube-dl -f bestvideo[ext=mp4] --user-agent '' URL`
+`youtube-dl -f bestvideo[ext=mp4] --no-check-certificate --user-agent '' URL`
 
 The downloaded videos should be in equirectangular format now:
 ![Youtube propriety format](https://github.com/phananh1010/download-highres-youtubevid/blob/master/deer_0_01.jpg?raw=true)
