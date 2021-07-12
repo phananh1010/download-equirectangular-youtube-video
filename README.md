@@ -11,6 +11,9 @@ Install youtube-dl with Python:
 
 `sudo -H pip install --upgrade youtube-dl`
 
+Update youtube-dl to the newest version:
+`youtube-dl --update`
+
 Execute this command to download highest resolution in equirectangular:
 
 `youtube-dl -f bestvideo[ext=mp4] --no-check-certificate --user-agent '' URL`
