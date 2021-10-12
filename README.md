@@ -31,4 +31,9 @@ More detail [here](https://github.com/ytdl-org/youtube-dl/issues/15267)
 Sometime, a video is in stereoscopic format. The equirectangular frames show two similar parts on top of each other like this:
 ![Stereoscopic](https://github.com/phananh1010/download-highres-youtubevid/blob/master/moose_stereoscopic.jpg?raw=true)
 
+In order to get the equirectangular, simply discard one part of the frame with ffmpeg: 
+```
+ffmpeg -i [InputVideo] -vf crop=h=in_h/2:y=0 -c:a copy [OutputVideo].
+```
+The result is an equirectangular frame.
 ![Monoscopic](https://github.com/phananh1010/download-highres-youtubevid/blob/master/moose_monoscopic.jpg?raw=true)
