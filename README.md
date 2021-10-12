@@ -19,8 +19,16 @@ Execute this command to download highest resolution in equirectangular:
 `youtube-dl -f bestvideo[ext=mp4] --no-check-certificate --user-agent '' URL`
 
 The downloaded videos should be in equirectangular format now:
-![Youtube propriety format](https://github.com/phananh1010/download-highres-youtubevid/blob/master/deer_0_01.jpg?raw=true)
+![Equirectangular](https://github.com/phananh1010/download-highres-youtubevid/blob/master/deer_0_01.jpg?raw=true)
 
+<!--
 That's being said, equirectangular is not the best format in many situations (notice the high distortion near the top and bottom of equirectangular format). 
 
 More detail [here](https://github.com/ytdl-org/youtube-dl/issues/15267)
+-->
+
+# How to convert stereoscopic 360-degree video to monoscopic
+Sometime, a video is in stereoscopic format. The equirectangular frames show two similar parts on top of each other like this:
+![Stereoscopic](https://github.com/phananh1010/download-highres-youtubevid/blob/master/moose_stereoscopic.jpg?raw=true)
+
+![Monoscopic](https://github.com/phananh1010/download-highres-youtubevid/blob/master/moose_monoscopic.jpg?raw=true)
