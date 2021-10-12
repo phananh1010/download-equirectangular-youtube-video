@@ -1,4 +1,4 @@
-# How to download 360-degree videos from Youtube in equirectangular format
+# Download equirectuangular 360-degree videos from Youtube in highest quality
 
 Recently, Youtube has developed their own [propriety encoding scheme](https://youtube-eng.googleblog.com/2017/03/improving-vr-videos.html) for 360-degree videos. Most videos from Youtube which have 2K and 4K resolution have already been converted into this format. 
 
@@ -27,7 +27,7 @@ That's being said, equirectangular is not the best format in many situations (no
 More detail [here](https://github.com/ytdl-org/youtube-dl/issues/15267)
 -->
 
-# How to convert stereoscopic 360-degree video to monoscopic
+# Convert stereoscopic 360-degree video to monoscopic
 Sometime, a video is in stereoscopic format. The equirectangular frames show two similar parts on top of each other like this:
 ![Stereoscopic](https://github.com/phananh1010/download-highres-youtubevid/blob/master/moose_stereoscopic.jpg?raw=true)
 
