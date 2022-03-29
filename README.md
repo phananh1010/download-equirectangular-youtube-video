@@ -9,7 +9,7 @@ The equirectangular is still useful in some niche cases e.g. showing snapshot to
 
 Install youtube-dl with Python:
 
-`sudo -H pip install --upgrade youtube-dl`
+`pip install --upgrade youtube-dl`
 
 Update youtube-dl to the newest version:
 `youtube-dl --update`
