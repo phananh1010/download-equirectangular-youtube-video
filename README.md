@@ -9,14 +9,16 @@ The equirectangular is still useful in some niche cases e.g. showing snapshot to
 
 Install youtube-dl with Python:
 
-`pip install --upgrade youtube-dl`
+Updated (May-10-2023), youtube-dl is obsoleted, now switch to yt-dlp, which has similar syntax
+
+`pip install --upgrade yt-dlp`
 
 Update youtube-dl to the newest version:
-`youtube-dl --update`
+`yt-dlp --update`
 
 Execute this command to download highest resolution in equirectangular:
 
-`youtube-dl -f bestvideo[ext=mp4] --no-check-certificate --user-agent '' URL`
+`yt-dlp -f bestvideo[ext=mp4] --no-check-certificate --user-agent '' URL`
 
 The downloaded videos should be in equirectangular format now:
 ![Equirectangular](https://github.com/phananh1010/download-highres-youtubevid/blob/master/deer_0_01.jpg?raw=true)
